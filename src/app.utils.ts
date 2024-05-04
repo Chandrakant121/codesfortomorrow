@@ -1,0 +1,2 @@
+export const PASSWORD_REGEX = /((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/
+export const PASSWORD_REGEX_ERR = "Password should have 1 upper case, lower letter along with a number and special character"
